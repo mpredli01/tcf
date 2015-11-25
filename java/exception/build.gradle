@@ -1,0 +1,18 @@
+task init() {
+    println()
+    println "Java Advanced Features"
+    println "Exception Demo Application"
+    println new Date()
+    println()
+    }
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.tcf.exception.ExceptionApp'
+
+jar {
+	baseName = 'exception'
+	version = '1.0.0'
+	}
+

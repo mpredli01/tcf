@@ -1,0 +1,18 @@
+task init() {
+    println()
+    println "Java Advanced Features"
+    println "Java Beans Demo Application"
+    println new Date()
+    println()
+    }
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.tcf.beans.BeansApp'
+
+jar {
+	baseName = 'beans'
+	version = '1.0.0'
+	}
+

@@ -1,0 +1,18 @@
+task init() {
+    println()
+    println "Getting Started with Java"
+    println "Sports Demo Application"
+    println new Date()
+    println()
+    }
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.tcf.sports.SportsApp'
+
+jar {
+	baseName = 'sports'
+	version = '1.0.0'
+	}
+

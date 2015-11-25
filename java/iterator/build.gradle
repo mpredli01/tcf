@@ -1,0 +1,18 @@
+task init() {
+    println()
+    println "Java Advanced Features"
+    println "Iterator Demo Application"
+    println new Date()
+    println()
+    }
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.tcf.iterator.IteratorApp'
+
+jar {
+	baseName = 'iterator'
+	version = '1.0.0'
+	}
+
